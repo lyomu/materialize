@@ -16,8 +16,8 @@
             right: 30px;
         }
     </style>
-    <style>
-        .box{
+    <!-- <style>
+        /* .box{
             height: 200px;
         }
     .row > div{
@@ -29,10 +29,99 @@
         background: lightblue;
         height: 120px;
     }
-    </style>
+    </style> */ -->
 </head>
 <body>
-	
+
+<!-- MODALS -->
+
+<!-- COLLECTIONS -->
+
+	<!-- <div class="container">
+		<h2>Collections</h2>
+		<ul class="collection with-header">
+			<li class="collection-header"> <h4>Customers</h4></li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle blue">person</i>
+				<span class="title">Ryu</span>
+				<p class="grey-text">black-belt</p>
+				<a class="secondary-content">
+					<i class="material-icons blue-text">email</i>
+				</a>
+			</li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle blue">person</i>
+				<span class="title">Yoshi</span>
+				<p class="grey-text">black-belt</p>
+				<a class="secondary-content">
+					<i class="material-icons blue-text">email</i>
+				</a>
+			</li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle blue">person</i>
+				<span class="title">Crystal</span>
+				<p class="grey-text">black-belt</p>
+				<a class="secondary-content">
+					<i class="material-icons blue-text">email</i>
+				</a>
+			</li>
+			<li class="collection-item avatar">
+				<i class="material-icons circle blue">person</i>
+				<span class="title">Mario</span>
+				<p class="grey-text">black-belt</p>
+				<a class="secondary-content">
+					<i class="material-icons blue-text">email</i>
+				</a>
+			</li>
+		</ul>
+	</div> -->
+
+    <!-- CARDS -->
+    <!-- <div class="container">
+        <h2>Cards</h2>
+
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="pexels.jpg" alt="Image alt">
+                        <a href="#" class=" halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                   <div class="card-content">
+                       <span class="card-title">Mine Nice Title</span>
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus ut omnis minus nulla dicta et animi ipsum, culpa natus nam exercitationem error hic explicabo impedit! Magnam repellendus maxime minima!</p>
+                   </div> 
+                   <div class="card-action">
+                       <a href=""#>More Details</a>
+                       <a href=""#>View Password</a>
+                   </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="pexels2.jpg" alt="Image alt">
+                        <a href="#" class=" halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                   <div class="card-content">
+                       <span class="card-title">My Better Title</span>
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus ut omnis minus nulla dicta et animi ipsum, culpa natus nam exercitationem error hic explicabo impedit! Magnam repellendus maxime minima!</p>
+                   </div> 
+                   <div class="card-action">
+                       <a href=""#>More Details</a>
+                       <a href=""#>View Password</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+
 
 	<!-- NAV BAR AND BADGES -->
 <!-- 
@@ -195,13 +284,34 @@
         <h5 class="purple-text">This is is text 4</h5>
         <h5 class="yellow lighten-3 purple-text text-darken-4">This is is text 5</h5>
     </div> -->
+
+    <!-- MODAL -->
+    <div class="container">
+    	<h2>Modals</h2>
+    	<a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+
+    	<div class="modal" id="terms">
+    		<div class="modal-content">
+    			<h4>Terms and Conditions</h4>
+    			<p>Lorem ipsum....</p>
+    		</div>
+    		<div class="modal-footer">
+    			<a class="modal-close btn orange"> Agree & Close</a>
+    		</div>
+    	</div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     	$(document).ready(function(){
     		$('.sidenav').sidenav();
     	})
+    </script> -->
+    <script>
+    	$(document).ready(function(){
+    		$(".modal").modal();
+    	});
     </script>
 </body>
 </html>
